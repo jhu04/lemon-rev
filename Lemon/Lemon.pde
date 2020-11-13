@@ -5,7 +5,7 @@ PImage[] lemon;
 int n;
 int[] arr;
 PImage[] arrImg;
-s
+
 int w;
 int ind;
 
@@ -42,7 +42,11 @@ void setup()
 
 void draw()
 {
+  if (keyPressed)
+    return;
+   
   background(white);
+  
   for (int i = 0; i < n; ++i)
     image(arrImg[i], 50 * i, 0);
   
