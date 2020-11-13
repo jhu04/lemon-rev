@@ -5,7 +5,7 @@ PImage[] lemon;
 int n;
 int[] arr;
 PImage[] arrImg;
-s
+
 int w;
 int ind;
 
